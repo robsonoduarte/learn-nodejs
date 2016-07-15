@@ -1,2 +1,2 @@
-Simple example Nodejs Modular Loader
+Simple example Nodejs Module Loader
 ====================================
