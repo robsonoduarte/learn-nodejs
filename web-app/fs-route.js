@@ -7,7 +7,7 @@ var server = http.createServer(function(req,rsp){
 
         var page = url.parse(req.url,true).pathname +  ".html"
 
-        fs.readFile(__dirname + page, function(error,html){
+        fs.readFile(__dirname + page, function(err,html){
 	       if (err) {
 		 rsp.writeHeader(404, {'Content-Type': 'text/html'})
 		 rsp.write("Page not found")	
