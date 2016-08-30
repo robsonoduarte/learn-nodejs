@@ -1,3 +1,3 @@
-Async X Sync
+Async x Sync
 ---------------------------
 **readme in construction**
