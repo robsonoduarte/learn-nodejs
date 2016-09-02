@@ -1,6 +1,6 @@
 var fs = require('fs')
 
-var read = function(file){
+var read = function(){
 	console.log('reading async...')
 }
 
