@@ -4,7 +4,8 @@ var sync = require('./read-sync')
 var async = require('./read-async')
 
 
-sync
+sync()
+async()
 
 
 
