@@ -16,7 +16,7 @@ http.get("http://nodejs.org/dist/v4.5.0/node-v4.5.0-linux-x64.tar.xz",function(r
 
 	rsp.on('end',function(){
 	   stream.end()
-	   console.log('Download Finished')	
+	   console.log('Finished Download')	
 	   async(file)	
 	   sync(file)
 	});
