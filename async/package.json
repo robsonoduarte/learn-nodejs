@@ -1,0 +1,15 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "Simple Benchmark between run functions synchronous and asynchronous in Node.js",
+  "main": "process.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "robsonoduarte",
+  "dependencies": {
+    "byte-size": "^8.1.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
