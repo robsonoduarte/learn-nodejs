@@ -6,7 +6,7 @@ const read = function (file) {
 	fs.readFile(file, (_, buffer) => {
 		const data = bs(buffer.length)
 		const total = new Date() - start
-		console.info(`Read file size ${data.value}${data.unit} sync in ${total}ms`)
+		console.info(`Read file size ${data.value}${data.unit} async in ${total}ms`)
 	})
 };
 
